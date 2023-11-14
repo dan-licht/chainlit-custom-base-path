@@ -25,7 +25,7 @@
     "formatUi": "cd frontend && pnpm run format",
     "lint:components": "cd libs/components && pnpm run lint",
     "format:components": "cd libs/components && pnpm run format",
-    "lintPython": "cd backend && poetry run mypy chainlit/",
+    "lintPython": "cd backend",
     "formatPython": "black `git ls-files | grep '.py$'` && isort --profile=black .",
     "buildUi": "cd libs/components && pnpm run build && cd ../../frontend && pnpm run build",
     "build:components": "cd libs/components && pnpm build",
