@@ -2,6 +2,7 @@
   "name": "chainlit-ui",
   "private": true,
   "version": "0.0.1",
+  "homepage": "/investigations/assistant",
   "type": "module",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
